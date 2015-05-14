@@ -1,18 +1,21 @@
 {
-    "name": "lu200852/test",
-    "description": "desc",
-    "license": "null",
+    "name": "testfile/yii2-test",
+    "description": "test extension des",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
     "authors": [
         {
-            "name": "lu200852",
+            "name": "ljj",
             "email": "240972612@qq.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "yiisoft/yii2": "*"
+    },
     "autoload": {
         "psr-4": {
-            "lujiajun\\test\\": ""
+            "test\\lujiajun\\": ""
         }
     }
 }
